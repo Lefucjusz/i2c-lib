@@ -4,9 +4,7 @@
 #include <fcntl.h>			//Needed for I2C port
 #include <sys/ioctl.h>			//Needed for I2C port
 #include <linux/i2c-dev.h>		//Needed for I2C port
-
-typedef unsigned char uint8_t;
-typedef unsigned short uint16_t;
+#include <stdint.h>
 
 class i2c_t
 {
